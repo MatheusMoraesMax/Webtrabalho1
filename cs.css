@@ -1,0 +1,131 @@
+html{
+    /*para navegação suave*/
+    scroll-behavior: smooth;
+}
+h2 {
+    text-align: center;
+    border: solid;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+h3 {
+    font-family:impact;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    
+}
+.textoresumo {
+    
+    width: 90%;
+     /*tamanho da letra*/
+    font-size: 30px;
+
+
+}
+.textoexperiencia {
+    
+    width: 90%;
+     /*tamanho da letra*/
+    font-size: 30px;
+   
+
+
+}
+.textoformação{
+    
+    width: 90%;
+    /*tamanho da letra*/
+    font-size: 30px;
+
+}
+
+.topico{
+text-align: center;
+color: white;
+
+
+
+}
+.container1 {
+    top: 5%;
+display: flex;
+    background-color: black;
+flex-direction: column;
+width: 25%;
+position: fixed;
+}
+.item1{
+    color: aliceblue;
+    font-size: 20px;
+border: 5px solid whitesmoke;
+}
+.container2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+flex-direction: column;
+width: 60%;
+position: relative;
+left: 27%;
+border: 10px solid;
+border-color: white;
+
+}
+body{
+    background-color: rgba(198, 198, 198, 0.85);
+}
+.container3{
+    
+    color: rgb(6, 6, 6);
+    position: fixed;
+    top: 5%;
+   left: 88%;
+   /*gap define o espaço entre os elemento*/
+gap: 20px;
+   height: 200px;
+   background-color: rgb(3, 3, 3);
+   display: flex;   
+   flex-direction: column;
+border: double;
+border-color: rgb(223, 223, 224);
+/*para arredondar as ponta da borda*/
+border-radius: 10px;
+}
+.item{
+    font-family: Impact;
+}
+#instagram{
+    position: relative;
+left: 1%;
+width: 1000px;
+}
+#youtube {
+    position: relative;
+    left: 1%;
+    width: 1000px;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.bi-instagram{
+    color: rgb(214, 59, 194);
+
+}
+.bi-youtube{
+    color: brown;
+}
+img{
+   border: solid;
+   width: 210px;
+   height: 210px;
+   /*para arredondar as ponta da borda*/
+    border-radius: 200px;
+    border-color: rgb(255, 255, 255);
+}
+
+
+/*(display flex) serve para organizar elementos dentro de um container em linhas ou colunas, permitindo criar designs flexíveis e adaptáveis */
