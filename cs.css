@@ -1,6 +1,6 @@
 html{
     /*para navegação suave*/
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
 h2 {
     text-align: center;
@@ -44,17 +44,15 @@ h3 {
 .topico{
 text-align: center;
 color: white;
-
-
-
 }
 .container1 {
-    top: 5%;
+    top: 0%;
 display: flex;
     background-color: black;
 flex-direction: column;
-width: 25%;
+width: 26%;
 position: fixed;
+
 }
 .item1{
     color: aliceblue;
@@ -91,6 +89,7 @@ border: double;
 border-color: rgb(223, 223, 224);
 /*para arredondar as ponta da borda*/
 border-radius: 10px;
+height: 30%;
 }
 .item{
     font-family: Impact;
@@ -120,8 +119,7 @@ a{
 }
 img{
    border: solid;
-   width: 210px;
-   height: 210px;
+   width: 150px;
    /*para arredondar as ponta da borda*/
     border-radius: 200px;
     border-color: rgb(255, 255, 255);
